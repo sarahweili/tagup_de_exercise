@@ -42,7 +42,7 @@ ExampleCo, Inc is gathering several types of data for its fleet of very expensiv
 		- Scatter plot:
 		![scatter_clean](/img/scatter_clean.png)
 		- Information:  
-		<img src="img/summary_1.png" width="200">
+		<img src="img/summary_1.png" width="300"><br/>
 		- Statistics:  
 		![summary_2](/img/summary_2.png)
 
