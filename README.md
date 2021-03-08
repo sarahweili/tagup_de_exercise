@@ -28,6 +28,16 @@ ExampleCo, Inc is gathering several types of data for its fleet of very expensiv
 		- Necessary index is added in order to improve query performance.
 
 - <strong>Process the data</strong>
+	- <strong>Remove invalid data</strong>
+		- Null value
+		- Invalid data type, e.g. timestamp
+	- <strong>Remove outliers</strong>
+		- Z score method
+	- <strong>Transform the data</strong>
+		- Input data:
+		![raw](/img/raw.png)
+		- Output data:  
+		![processed](/img/processed.png)
 - <strong>Ingest the data</strong>
 
 
