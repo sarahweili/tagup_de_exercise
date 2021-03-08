@@ -14,7 +14,7 @@ ExampleCo, Inc is gathering several types of data for its fleet of very expensiv
 - <strong>Understand the data</strong>
 	- <strong>Data quality</strong>   
 	Plot 4 metric values:  
-	<img src="img/histogram.png" width="300">
+	![histogram](/img/histogram.png)
 	_All four metric values center around 0, which indicate the machine failed after a short period of normal functioning. There are also some outliers that fall into the ranges of >-200 and >200._
 	![scatter](/img/scatter.png)
 	_The scatter plots give a better picture of the machine status over the time and the distribution of the outliers._
@@ -42,7 +42,7 @@ ExampleCo, Inc is gathering several types of data for its fleet of very expensiv
 		- Scatter plot:
 		![scatter_clean](/img/scatter_clean.png)
 		- Information:  
-		<img src="img/summary_1.png" width="300">
+		![summary_1](/img/summary_1.png)
 		- Statistics:  
 		<img src="img/summary_2.png" width="200">
 
