@@ -11,7 +11,7 @@ ExampleCo, Inc is gathering several types of data for its fleet of very expensiv
 	- Sensor_2 -> Column '2' and Column '3'
 
 ## Solution
-- Understand the data
+- <strong>Understand the data</strong>
 	- Data quality   
 	Plot 4 metric values:
 	![histogram](/img/histogram.png)
@@ -20,8 +20,8 @@ ExampleCo, Inc is gathering several types of data for its fleet of very expensiv
 	The scatter plots give a better picture of the machine status over the time and the distribution of the outliers.
 	- Database design  
 	![schema](/img/schema.png)
-- Process the data
-- Ingest the data
+- <strong>Process the data</strong>
+- <strong>Ingest the data</strong>
 
 
 ## Data Pipeline
