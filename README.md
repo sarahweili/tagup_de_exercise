@@ -40,7 +40,7 @@ ExampleCo, Inc is gathering several types of data for its fleet of very expensiv
 		![processed](/img/processed.png)
 - <strong>Ingest the data</strong>
 	- Choose PostgreSQL for stable performance
-	- Use "INSERT INTO...ON CONFLICT () DO NOTHING" query to avoid inserting duplicate records
+	- Use _"INSERT INTO...ON CONFLICT () DO NOTHING"_ query to avoid inserting duplicate records
 
 
 ## Data Pipeline
