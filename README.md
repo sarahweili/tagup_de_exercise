@@ -42,9 +42,9 @@ ExampleCo, Inc is gathering several types of data for its fleet of very expensiv
 		- Scatter plot:
 		![scatter_clean](/img/scatter_clean.png)
 		- Information:  
-		![summary_1](/img/summary_1.png)
+		<img src="img/summary_1.png" width="200">
 		- Statistics:  
-		<img src="img/summary_2.png" width="200">
+		![summary_2](/img/summary_2.png)
 
 - <strong>Ingest the data</strong>
 	- Choose PostgreSQL for stable performance
