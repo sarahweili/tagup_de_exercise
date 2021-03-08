@@ -13,9 +13,9 @@ ExampleCo, Inc is gathering several types of data for its fleet of very expensiv
 ## Solution
 - Understand the data
 	- Data quality 
-	Plot 4 metric values:
+	Plot 4 metric values:  
 	![histogram](/img/histogram.png)
-	
+
 	![scatter](/img/scatter.png)
 
 
