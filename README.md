@@ -47,6 +47,14 @@ ExampleCo, Inc is gathering several types of data for its fleet of very expensiv
 
 
 
-## How to run
+## Requirements
+- Python 3.6
+- psycopg2
+- numpy
+- pandas
+- matplotlib
+- scipy
 
-## Required Packages
+## How to run
+- Update database configuration parameters in _config.ini_
+- Run _python pipeline.py_
