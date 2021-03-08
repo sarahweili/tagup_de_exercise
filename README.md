@@ -53,10 +53,6 @@ ExampleCo, Inc is gathering several types of data for its fleet of very expensiv
 	<img src="img/database.png" width="300"><br/>
 
 
-## Data Pipeline
-
-
-
 ## Requirements
 - Python 3.6
 - psycopg2
