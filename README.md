@@ -12,18 +12,21 @@ ExampleCo, Inc is gathering several types of data for its fleet of very expensiv
 
 ## Solution
 - <strong>Understand the data</strong>
-	- Data quality   
+	- <strong>Data quality</strong>   
 	Plot 4 metric values:
 	![histogram](/img/histogram.png)
-	All four metric values center around 0, which indicate the machine failed after a short period of normal functioning. There are also some outliers that fall into the ranges of >-200 and >200.
+	_All four metric values center around 0, which indicate the machine failed after a short period of normal functioning. There are also some outliers that fall into the ranges of >-200 and >200._
 	![scatter](/img/scatter.png)
-	The scatter plots give a better picture of the machine status over the time and the distribution of the outliers.
+	_The scatter plots give a better picture of the machine status over the time and the distribution of the outliers._
 
-	- Database design  
+	- <strong>Database design</strong>  
 	Database schema:
 	![schema](/img/schema.png)
 	Advantages:  
-	
+		- This schema fulfills the data analytics purpose by following the STAR schema (OLAP) structure. The fact table _reading_ is associated with three demension tables _machine, sensor, metric_. It has the benefits of STAR schema: easy to understand, flexible to expand, simple to query without complex joins, etc.
+		- The (composite) primary key of each table is derived from application data. No surrogate key that adds extra columns to the tables.
+		- Necessary index is added in order to improve query performance.
+
 - <strong>Process the data</strong>
 - <strong>Ingest the data</strong>
 
