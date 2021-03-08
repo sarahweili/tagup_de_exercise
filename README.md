@@ -49,7 +49,7 @@ ExampleCo, Inc is gathering several types of data for its fleet of very expensiv
 - <strong>Ingest the data</strong>
 	- Choose PostgreSQL for stable performance
 	- Use _"INSERT INTO...ON CONFLICT () DO NOTHING"_ query to avoid inserting duplicate records
-	- Console output:
+	- Console output:  
 	<img src="img/database.png" width="300"><br/>
 
 
