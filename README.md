@@ -38,9 +38,18 @@ ExampleCo, Inc is gathering several types of data for its fleet of very expensiv
 		![raw](/img/raw.png)
 		- Output data:  
 		![processed](/img/processed.png)
+	- <strong>Output summary</strong>
+		- Scatter plot:
+		![scatter_clean](/img/scatter_clean.png)
+		- Information:
+		![summary_1](/img/summary_1.png)
+		- Statistics:
+		![summary_2](/img/summary_2.png)
+
 - <strong>Ingest the data</strong>
 	- Choose PostgreSQL for stable performance
 	- Use _"INSERT INTO...ON CONFLICT () DO NOTHING"_ query to avoid inserting duplicate records
+	- 
 
 
 ## Data Pipeline
