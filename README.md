@@ -12,14 +12,14 @@ ExampleCo, Inc is gathering several types of data for its fleet of very expensiv
 
 ## Solution
 - Understand the data
-	- Data quality 
-	Plot 4 metric values:  
+	- Data quality   
+	Plot 4 metric values:
 	![histogram](/img/histogram.png)
-
+	All four metric values center around 0, which indicate the machine failed after a short period of normal functioning. There are also some outliers that fall into the ranges of >-200 and >200.
 	![scatter](/img/scatter.png)
-
-
-	- Database design
+	The scatter plots give a better picture of the machine status over the time and the distribution of the outliers.
+	- Database design  
+	![schema](/img/schema.png)
 - Process the data
 - Ingest the data
 
