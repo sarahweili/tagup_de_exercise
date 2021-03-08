@@ -42,14 +42,15 @@ ExampleCo, Inc is gathering several types of data for its fleet of very expensiv
 		- Scatter plot:
 		![scatter_clean](/img/scatter_clean.png)
 		- Information:  
-		<img src="img/summary_1.png" width="300"><br/>
+		<img src="img/summary_1.png" width="400"><br/>
 		- Statistics:  
 		<img src="img/summary_2.png" width="200"><br/>
 
 - <strong>Ingest the data</strong>
 	- Choose PostgreSQL for stable performance
 	- Use _"INSERT INTO...ON CONFLICT () DO NOTHING"_ query to avoid inserting duplicate records
-	- 
+	- Console output:
+	<img src="img/database.png" width="300"><br/>
 
 
 ## Data Pipeline
