@@ -27,7 +27,6 @@ def config(filename='config.ini', section='postgresql'):
     return db
 
 
-# In[195]:
 
 
 def connect_to_db(params_dic):
