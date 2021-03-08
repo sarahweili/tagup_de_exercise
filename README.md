@@ -37,7 +37,7 @@ ExampleCo, Inc is gathering several types of data for its fleet of very expensiv
 		- Input data:  
 		<img src="img/raw.png" width="500"><br/>
 		- Output data:  
-		<img src="img/processed.png" width="500"><br/>
+		<img src="img/processed.png" width="600"><br/>
 	- <strong>Output summary</strong>
 		- Scatter plot:
 		![scatter_clean](/img/scatter_clean.png)
