@@ -34,10 +34,10 @@ ExampleCo, Inc is gathering several types of data for its fleet of very expensiv
 	- <strong>Remove outliers</strong>
 		- Z score method
 	- <strong>Transform the data</strong>
-		- Input data:
-		<img src="img/raw.png" width="300"><br/>
+		- Input data:  
+		<img src="img/raw.png" width="400"><br/>
 		- Output data:  
-		<img src="img/processed.png" width="300"><br/>
+		<img src="img/processed.png" width="400"><br/>
 	- <strong>Output summary</strong>
 		- Scatter plot:
 		![scatter_clean](/img/scatter_clean.png)
