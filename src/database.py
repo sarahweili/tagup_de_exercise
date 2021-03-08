@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[193]:
 
 
 import sys
@@ -10,7 +9,6 @@ from configparser import ConfigParser
 import pandas as pd
 
 
-# In[194]:
 
 
 def config(filename='config.ini', section='postgresql'):
@@ -46,7 +44,6 @@ def connect_to_db(params_dic):
     return conn
 
 
-# In[196]:
 
 
 def create_tables(conn):
@@ -106,7 +103,6 @@ def create_tables(conn):
     
 
 
-# In[197]:
 
 
 def count_records(conn):
@@ -137,7 +133,6 @@ def count_records(conn):
     cursor.close()
 
 
-# In[198]:
 
 
 def insert_records(conn, df):
@@ -191,7 +186,6 @@ def insert_records(conn, df):
     cursor.close()
 
 
-# In[ ]:
 
 
 

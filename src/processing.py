@@ -7,7 +7,6 @@ import pandas as pd
 from scipy import stats
 import numpy as np
 import matplotlib.pyplot as plt
-get_ipython().run_line_magic('matplotlib', 'inline')
 
 
 
@@ -81,8 +80,8 @@ def process_data(df, file_name):
     valid_data = drop_invalid_data(data)
     clean_data = zscore(valid_data)
     # plot data distribution after removing the outliers
-    plot_scatter(clean_data)
-    print('\n')
+    #plot_scatter(clean_data)
+    #print('\n')
     ready_data = transform_df(clean_data, file_name)
     # print output data summary
     print('Data processing completed!')
@@ -94,9 +93,4 @@ def process_data(df, file_name):
     print(ready_data.describe())
     print('\n')
     return ready_data
-
-
-
-
-
 
