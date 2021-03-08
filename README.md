@@ -35,9 +35,9 @@ ExampleCo, Inc is gathering several types of data for its fleet of very expensiv
 		- Z score method
 	- <strong>Transform the data</strong>
 		- Input data:
-		![raw](/img/raw.png)
+		<img src="img/raw.png" width="300"><br/>
 		- Output data:  
-		![processed](/img/processed.png)
+		<img src="img/processed.png" width="300"><br/>
 	- <strong>Output summary</strong>
 		- Scatter plot:
 		![scatter_clean](/img/scatter_clean.png)
