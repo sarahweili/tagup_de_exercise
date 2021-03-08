@@ -63,7 +63,4 @@ ExampleCo, Inc is gathering several types of data for its fleet of very expensiv
 
 ## How to run
 - Update database configuration parameters in _config.ini_
-- Run 
-'''shell
-python pipeline.py
-'''
+- Run 'python pipeline.py'
