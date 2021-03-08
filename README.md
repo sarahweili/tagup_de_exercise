@@ -44,7 +44,7 @@ ExampleCo, Inc is gathering several types of data for its fleet of very expensiv
 		- Information:  
 		<img src="img/summary_1.png" width="300"><br/>
 		- Statistics:  
-		![summary_2](/img/summary_2.png)
+		<img src="img/summary_2.png" width="200"><br/>
 
 - <strong>Ingest the data</strong>
 	- Choose PostgreSQL for stable performance
