@@ -18,9 +18,12 @@ ExampleCo, Inc is gathering several types of data for its fleet of very expensiv
 	All four metric values center around 0, which indicate the machine failed after a short period of normal functioning. There are also some outliers that fall into the ranges of >-200 and >200.
 	![scatter](/img/scatter.png)
 	The scatter plots give a better picture of the machine status over the time and the distribution of the outliers.
-	<br/>
+
 	- Database design  
+	Database schema:
 	![schema](/img/schema.png)
+	Advantages:  
+	
 - <strong>Process the data</strong>
 - <strong>Ingest the data</strong>
 
